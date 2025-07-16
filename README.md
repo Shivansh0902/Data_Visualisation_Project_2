@@ -1,113 +1,143 @@
-# Western Port Water Quality Visualisation (1990–2023)
+# 🌊 Western Port Water Quality Dashboard (1990–2023)
 
-This project presents a comprehensive Tableau visualisation of long-term water quality monitoring data for **Western Port**, Victoria, Australia. The visualisation highlights key environmental parameters such as **nitrogen, phosphorus, salinity, temperature**, and **pH levels**, offering insights into ecological trends across over three decades.
-
-## 📊 Public Tableau Dashboard
-
-**View the interactive dashboard here**:  
-👉 [Assignment1_33075573_Shivansh - Dashboard](https://public.tableau.com/app/profile/shivansh.chadda/viz/Assignment1_33075573_Shivansh/Dashboard1?publish=yes)
+An interactive Tableau dashboard exploring over 30 years of environmental data from Western Port, Victoria. This project visualises trends in water quality indicators such as nitrogen, phosphorus, salinity, pH, temperature, and dissolved oxygen—offering insights into the health and sustainability of one of Australia’s important coastal ecosystems.
 
 ---
 
-## 🌏 Domain, Purpose, and Audience
+## 📊 Live Dashboard
 
-### Domain:
-Environmental monitoring with a focus on **water quality** in coastal and marine ecosystems.
-
-### Why:
-This visualisation aims to help stakeholders understand long-term environmental changes and anthropogenic impacts on **Western Port’s aquatic ecosystem**. The data supports **scientific research, conservation planning**, and **policy formulation**.
-
-### Who:
-- Environmental scientists and researchers
-- Government bodies and policymakers
-- Conservation organisations
-- Educators and students
-- The public interested in ecological sustainability
+🔗 **Access the Interactive Tableau Dashboard**  
+▶️ [Click here to view the dashboard on Tableau Public](https://public.tableau.com/app/profile/shivansh.chadda/viz/Assignment1_33075573_Shivansh/Dashboard1?publish=yes)
 
 ---
 
-## 📁 Data Overview
+## 🧭 Project Overview
 
-### 📌 Data Source:
-- **Dataset**: EPA Western Port Water Quality Data (1990–2023)
-- **Publisher**: Environmental Protection Authority (EPA) Victoria
-- **Access Link**:  
-  [https://discover.data.vic.gov.au/dataset/epa-western-port-water-quality-data-1990-2023](https://discover.data.vic.gov.au/dataset/epa-western-port-water-quality-data-1990-2023)
+### 📌 Domain:
+**Environmental Monitoring** — Coastal and marine ecosystem health, focused on water quality in Western Port, Victoria.
 
-### 🧾 Description:
-The dataset contains historical water quality readings collected from multiple sites in Western Port. It includes key indicators such as:
-- Total Nitrogen
-- Total Phosphorus
-- Salinity
-- Temperature
+### 🎯 Objective:
+To visualise long-term trends in key water quality parameters and provide an intuitive interface for exploring ecological impacts over time. The goal is to support decision-making in conservation, policy development, and scientific research.
+
+### 👥 Audience:
+- Environmental scientists and researchers  
+- Government agencies and policymakers  
+- Conservation organisations  
+- Students and educators in environmental studies  
+- General public interested in sustainability  
+
+---
+
+## 🗂️ Data Source
+
+### 📊 Dataset:
+**EPA Western Port Water Quality Data (1990–2023)**
+
+- **Publisher**: Environmental Protection Authority (EPA) Victoria  
+- **Link**: [View the dataset on DataVic](https://discover.data.vic.gov.au/dataset/epa-western-port-water-quality-data-1990-2023)  
+- **License**: [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+
+### 📌 Key Parameters Included:
+- Total Nitrogen (mg/L)
+- Total Phosphorus (mg/L)
+- Salinity (ppt)
 - pH
-- Dissolved Oxygen
+- Temperature (°C)
+- Dissolved Oxygen (mg/L)
+
+### 📁 Data Cleaning:
+The raw CSV files were cleaned and structured using Microsoft Excel prior to importing into Tableau for visualisation.
 
 ---
 
-## 🛠️ Visualisation Methodology
+## 📈 Visualisation Techniques
 
-The dashboard was built using **Tableau Public**, applying a range of visual idioms to convey complex ecological data intuitively:
+The dashboard uses multiple visual idioms (chart types) to display complex time-series and cross-sectional data effectively:
 
-### 🔍 Chart Types & Rationale:
-| Chart Type        | Purpose                                                                 |
-|-------------------|-------------------------------------------------------------------------|
-| Stream Graph       | Shows cumulative temporal change in water quality indicators            |
-| Area Chart         | Highlights long-term contribution of variables like salinity and DO     |
-| Stacked Bar Chart  | Compares nitrogen and phosphorus levels across different locations      |
-| Line + Stacked Bars| Visualises interaction between phosphorus and other indicators          |
-| Heatmap            | Displays temperature trends across years and sites                      |
-| Bullet Chart       | Assesses pH levels against benchmark values                             |
+| Chart Type           | Purpose                                                                 |
+|----------------------|-------------------------------------------------------------------------|
+| **Stream Graph**     | Illustrates cumulative changes in overall water quality over time       |
+| **Area Chart**       | Highlights contributions of salinity and dissolved oxygen year-on-year  |
+| **Stacked Bar Chart**| Compares phosphorus and nitrogen levels across monitoring sites         |
+| **Line + Bar Chart** | Shows nutrient fluctuations and site variability simultaneously         |
+| **Heatmap**          | Displays temperature patterns across locations and time                 |
+| **Bullet Chart**     | Highlights pH values compared to ecological benchmarks                  |
 
-### 🧩 Features:
-- Dynamic tooltips
-- Reference lines and threshold markers
-- Year and site filters
-- Consistent colour schemes for readability
-- Annotation callouts for significant trends
+---
+
+## 🧩 Features
+
+- 🔍 **Dynamic tooltips** – Instant data insights on hover  
+- 📌 **Annotations** – Key trends and site-specific notes  
+- 📊 **Filters** – Interact with data by year or monitoring site  
+- 📏 **Reference lines** – Compare parameters against environmental targets  
+- 🎨 **Colour-coded** – Intuitive palettes for clarity and accessibility  
 
 ---
 
 ## 💡 Key Insights
 
-- Seasonal and yearly fluctuations in nutrient levels
-- Site-specific anomalies in temperature and pH
-- Rising salinity trends in some regions
-- Deviations from ecological benchmarks (e.g., ideal pH range)
-
-These insights help evaluate the **impact of climate change, industrial activity**, and **land-use change** in the Western Port region.
-
----
-
-## 💻 Tools & Technologies
-
-| Tool        | Use                                 |
-|-------------|--------------------------------------|
-| Tableau     | Interactive visualisation and dashboard development |
-| Microsoft Excel | Preliminary data cleaning and structuring |
-| Data Vic Portal | Open government data access |
+- Seasonal and long-term **nutrient variations** (especially phosphorus and nitrogen)
+- Rising **salinity trends** in select locations
+- Deviations in **pH** from ecological benchmarks
+- Spatiotemporal variability in **temperature** and **oxygen levels**
+- Site-specific pollution hotspots and anomalies
 
 ---
 
-## 📂 Repository Structure
+## 🛠️ Tools & Technologies
 
-📁 western-port-water-quality-viz/
-├── 📊 Tableau Dashboard (link)
-├── 📄 README.md
-├── 📁 docs/
-│ └── methodology_notes.md
-└── 📊 data_source_link.txt
-
+| Tool               | Use                                               |
+|--------------------|----------------------------------------------------|
+| **Tableau Public** | Dashboard creation and interactive visualisation  |
+| **Excel**          | Data wrangling and pre-processing                 |
+| **GitHub**         | Version control and public project hosting        |
+| **DataVic Portal** | Access to open government environmental datasets  |
 
 ---
 
-## 📬 Contact
+## 🖼️ Dashboard Preview
 
-**Created by:** Shivansh Chadda  
+> *(Add this image after uploading a screenshot to `/screenshots/dashboard_preview.png`)*
+
+![Dashboard Preview](screenshots/dashboard_preview.png)
+
 ---
 
-## 📃 License
+## 🧱 Repository Structure
 
-The dataset used in this project is published by EPA Victoria and governed by the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+```bash
+Data_Visualisation_Project_2/
+├── README.md
+├── screenshots/
+│   └── dashboard_preview.png
+├── data_source_link.txt
+├── docs/
+│   └── methodology_notes.md (optional)
+```
+✍️ Author
+Shivansh Chadda
+Bachelor of Software Engineering (Hons) | Monash University
+📍 Melbourne, Australia
 
-This Tableau dashboard and supporting content are for academic and educational purposes only.
+🔗 LinkedIn Profile
+
+📧 shivansh.chadda@example.com (replace with real email)
+
+🗂️ More Projects
+
+📄 License & Attribution
+Dataset License: Creative Commons Attribution 4.0
+
+Dataset Publisher: Environmental Protection Authority (EPA) Victoria
+
+Visualisation Tool: Tableau Public (Free tier)
+
+This project was developed for academic and educational purposes as part of a data visualisation assignment. All rights to the original dataset belong to EPA Victoria.
+
+🙌 Acknowledgements
+Special thanks to:
+
+EPA Victoria for maintaining open access to environmental monitoring data.
+
+Monash University for providing the opportunity to explore real-world data in a structured learning environment.
