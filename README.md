@@ -120,9 +120,7 @@ Shivansh Chadda
 Bachelor of Software Engineering (Hons) | Monash University
 📍 Melbourne, Australia
 
-🔗 LinkedIn Profile
-
-📧 shivansh.chadda@example.com (replace with real email)
+📧 chaddashivansh12@gmail.com
 
 🗂️ More Projects
 
